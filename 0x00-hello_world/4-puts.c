@@ -1,10 +1,15 @@
 #include <stdio.h>
 
-/* This is the main method*/
-int main(void){
+/**
+ * main - this is the main function
+ *
+ * Return: always 0
+ */
 
- puts("Programming is like building a multilingual puzzle\n"); /*using puts*/
+int main(void)
+{
 
+puts("\"Programming is like building a multilingual puzzle);
 
- return(0);	
-}	
+return (0);
+}
