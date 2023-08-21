@@ -2,6 +2,7 @@
 
 /**
  * puts2 - Prints every other character of a string
+ * _putchar - prints the string
  * @str: The string to be computed
  * Return: void
  */
