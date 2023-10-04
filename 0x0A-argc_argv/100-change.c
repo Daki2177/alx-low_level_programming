@@ -14,7 +14,7 @@ int cents, coins = 0;
 
 if (argc != 2)
 {
-printf("Erro\n");
+printf("Error\n");
 return (1);
 }
 
