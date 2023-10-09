@@ -5,7 +5,7 @@
  * init_dog - initialize a dog structure
  * @d: dog structure
  * @name: name of the dog
- * @age: age of the dog
+ * @age: Age of the dog
  * @owner: owner of the dog
  * Return: void
  */
