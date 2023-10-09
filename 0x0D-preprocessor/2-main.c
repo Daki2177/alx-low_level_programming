@@ -2,7 +2,7 @@
 
 /**
  * main - print the file name of the program
- * 
+ *
  * Return: always zero
  */
 
