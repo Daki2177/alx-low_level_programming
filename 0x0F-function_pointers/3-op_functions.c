@@ -49,7 +49,7 @@ int op_div(int a, int b)
 {
 if (b == 0)
 {
-printf("Erroe\n");
+printf("Error\n");
 exit(99);
 }
 return (a / b);
