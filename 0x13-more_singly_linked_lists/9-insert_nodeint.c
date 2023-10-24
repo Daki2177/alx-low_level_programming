@@ -1,14 +1,14 @@
 #include <string.h>
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - ....
+ * insert_nodeint_at_index - .....
  * @head: ....
  * @idx: ....
  * @n: ....
- * Return: ...
+ * Return: ....
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -29,11 +29,10 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		new_node->next = *head;
 		*head = new_node;
 		return (new_node);
-
 	}
 
 	tmp_node = *head;
-	for (i = 0; idx - 1; i++)
+	for (i = 0; i < idx - 1; i++)
 	{
 		tmp_node = tmp_node->next;
 		if (tmp_node == NULL)
@@ -42,5 +41,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	new_node->next = tmp_node->next;
 	tmp_node->next = new_node;
+
 	return (new_node);
 }
