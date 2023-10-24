@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_listint - .....
+ * print_listint - ...
  * @h: .....
  * Return: ...
  */
@@ -17,6 +17,5 @@ size_t print_listint(const listint_t *h)
 		++counter;
 		h = h->next;
 	}
-
-return (counter);
+	return (counter);
 }
